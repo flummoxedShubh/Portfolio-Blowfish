@@ -37,7 +37,7 @@ jobs:
           ls -la portfolio-site/public || echo "public folder missing"
 
       - name: Build
-        run: hugo --minify -s portfolio-site
+        run: hugo --minify --environment production -s portfolio-site
         
       - name: Find Hugo output
         run: |
