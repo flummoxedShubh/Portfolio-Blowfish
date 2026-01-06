@@ -4,6 +4,10 @@
 
 theme = "blowfish" # UNCOMMENT THIS LINE
 baseURL = "https://flummoxedshubh.github.io/"
+publishDir = "public"
+relativeURLs = false
+canonifyURLs = true
+
 defaultContentLanguage = "en"
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
