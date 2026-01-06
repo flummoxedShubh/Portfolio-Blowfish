@@ -25,6 +25,17 @@ jobs:
           hugo-version: '0.141.0'
           extended: true
 
+      - name: PROVE build output exists
+        run: |
+          echo "PWD:"
+          pwd
+          echo "Repo root:"
+          ls -la
+          echo "portfolio-site:"
+          ls -la portfolio-site
+          echo "portfolio-site/public:"
+          ls -la portfolio-site/public || echo "public folder missing"
+
       - name: Build
         run: hugo --minify -s portfolio-site -d portfolio-site/public
 
