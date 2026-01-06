@@ -27,6 +27,7 @@ jobs:
 
       - name: Build
         run: hugo --minify
+        working-directory: portfolio-site
 
       - name: Deploy to GitHub Pages repo
         uses: peaceiris/actions-gh-pages@v4
