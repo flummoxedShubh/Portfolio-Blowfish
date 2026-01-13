@@ -44,7 +44,7 @@ implementation.
 
 ---
 
-## Shell Pistol AR @AutoVRse
+## Shell Piston AR @AutoVRse
 
 {{< figure src="res/shell-logo.jpg" title="" >}}
 
